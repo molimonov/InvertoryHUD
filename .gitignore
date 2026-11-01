@@ -1,0 +1,35 @@
+# Build output
+/build/
+/out/
+/dist/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.log
+
+# Local research data / decrypted game assets / screenshots
+/research/
+/docs/dumps/
+
+# Original game binaries and decompilation (not part of the project)
+/*.dll
+/*.exe
+/*.exe.c
+/s2dng_addon.exe.c
+
+# Runtime files copied into the game folder
+/bin/
+/InvertoryHUD.ini
+/InvertoryHUD_crash.log
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
+
+# Local-only research decrypter
+/tools/dng_crypt.py

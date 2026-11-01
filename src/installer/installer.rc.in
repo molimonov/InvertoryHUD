@@ -1,0 +1,19 @@
+#include <windows.h>
+#include "@CMAKE_SOURCE_DIR@/src/installer/resource.h"
+
+IDI_APP_ICON ICON "@CMAKE_SOURCE_DIR@/assets/S2_HUD.ico"
+
+IDD_INSTALLER DIALOGEX 0, 0, 340, 172
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "InvertoryHUD Setup"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Select The Settlers II game folder (the folder that contains bin\\s2dng_addon.exe):", -1, 10, 10, 320, 18
+    EDITTEXT        IDC_PATH, 10, 30, 260, 14, ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...", IDC_BROWSE, 276, 30, 54, 14
+    CONTROL         "Create a desktop shortcut for S2_HUD.exe", IDC_SHORTCUT, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 10, 54, 250, 12
+    LTEXT           "The original game files are not modified. An existing InvertoryHUD.ini is preserved.", -1, 10, 72, 320, 18
+    LTEXT           "", IDC_STATUS, 10, 98, 320, 24
+    PUSHBUTTON      "Install", IDOK, 190, 146, 70, 20
+    PUSHBUTTON      "Cancel", IDCANCEL, 266, 146, 64, 20
+END
