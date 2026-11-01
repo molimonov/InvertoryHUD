@@ -42,8 +42,7 @@ Other builds are rejected by the compatibility check instead of risking a crash.
 ## Install
 
 1. Download `InvertoryHUD_Setup.exe` from the latest release.
-2. Run it and select the game folder, for example:
-   `D:\Games\The Settlers. Зарождение цивилизаций`.
+2. Run it and select the game folder (the folder that contains `bin\s2dng_addon.exe`).
 3. The installer finds `bin\s2dng_addon.exe` and copies:
    - `InvertoryHUD.dll`
    - `S2_HUD.exe`
