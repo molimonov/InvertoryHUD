@@ -24,6 +24,9 @@
 /InvertoryHUD.ini
 /InvertoryHUD_crash.log
 
+# Local screenshot source; the published copy is docs/images/hud.png
+/screen.png
+
 # IDE / OS
 .vs/
 .idea/
