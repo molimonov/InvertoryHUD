@@ -9,6 +9,8 @@ a compact icon panel with live amounts directly in the DirectX 9 frame.
 > This is an unofficial fan mod. It does not modify the original EXE, original
 > DLLs or game data files.
 
+![InvertoryHUD panel and settings window](docs/images/hud.png)
+
 ## Features
 
 - Live global inventory for the current player (town hall + all warehouses).
